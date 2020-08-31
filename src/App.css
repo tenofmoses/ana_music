@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.wrap {
+	padding: 50px 16px;
+	margin: 0;
+	min-width: 100vw;
+	min-height: 100vh;
+	background: url(./img/kaleb-nimz--5rA4DRrEXU-unsplash.jpg) no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.music {
+	background: #fff;
+	max-width: 400px;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.album {
+	width: 100%;
+}
+
+.imgAlbum {
+	width: 100%;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.musicBlock {
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+	padding: 0 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.musicBlock:last-child {
+	border-bottom: none;
+}
+
+.imgWrap {
+	width: 145px;
+	height: 56px;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	display: flex;
+	align-items: center;
+}
+
+.img {
+	width: 125px;
+}
+
+.link {
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #333;
+	padding: 10px 25px;
+}
+
+
